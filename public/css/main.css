@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -6,13 +6,13 @@
     font-weight: 400;
 }
 
-root{
+root {
     font-size: 62.4%;
 }
 
-#page{
-    background: rgb(72,71,71);
-    background: linear-gradient(135deg, rgba(72,71,71,1) 0%, rgba(51,49,49,1) 20%, rgba(42,41,41,1) 52%, rgba(25,25,25,1) 100%) no-repeat;
+#page {
+    background: rgb(72, 71, 71);
+    background: linear-gradient(135deg, rgba(72, 71, 71, 1) 0%, rgba(51, 49, 49, 1) 20%, rgba(42, 41, 41, 1) 52%, rgba(25, 25, 25, 1) 100%) no-repeat;
     min-height: 100vh;
 
     text-align: center;
@@ -21,8 +21,8 @@ root{
     align-items: center;
 }
 
-#card{
-   
+#card {
+
     margin: 53px auto;
     width: 812px;
     height: 960px;
@@ -31,14 +31,14 @@ root{
     position: relative;
     padding: 112px 0px;
     box-sizing: border-box;
-    background: #000000; 
+    background: #000000;
 
-    
+
 }
 
-.corpo{
-   
-    
+.corpo {
+
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -46,7 +46,7 @@ root{
 }
 
 
-img{
+img {
     width: 231px;
     height: 236px;
     border: 2px solid #DF5622;
@@ -55,66 +55,66 @@ img{
     margin-bottom: 10px;
 }
 
-header{
+header {
     text-align: center;
 }
 
-h1{
-   font-size: 40px; 
-   text-transform: uppercase;
-   
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+
 }
 
-h4{
-   
-    font-size: 20px;   
+h4 {
+
+    font-size: 20px;
     margin-bottom: -15px;
 }
 
-hr{
+hr {
 
     width: 520px;
     border-color: #707070;
     margin: auto;
 }
 
-p{
+p {
     text-align: justify;
     margin: 0px 110px;
     font-weight: 400;
 }
 
-footer{
+footer {
     text-align: center;
     font-style: italic;
-    margin-top: 112px;  
-    
+    margin-top: 112px;
+
 }
 
 /* links */
 
 
-#links a{
-     text-decoration: none;
-    
-     width: 85px;
-     height: 46px;
-     border: #DF5622 1px solid;
-     border-radius: 20px;
+#links a {
+    text-decoration: none;
+
+    width: 85px;
+    height: 46px;
+    border: #DF5622 1px solid;
+    border-radius: 20px;
     font-size: 20px;
-     background: none;
- 
-     margin: 40px 100px 0;
-     
-     display: inline-flex;
-     align-items: center;
-     justify-content: center;
- 
+    background: none;
+
+    margin: 40px 100px 0;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-#links a:hover{
+#links a:hover {
 
     background: url('../images/image_processing20201012-18749-1sbq5o.gif');
     background-position: center;
-    
+
 }
