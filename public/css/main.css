@@ -91,24 +91,30 @@ footer{
     
 }
 
-.link, .git{
-    width: 85px;
-    height: 46px;
-    border: #DF5622 1px solid;
-    border-radius: 20px;
+/* links */
 
-    background: none;
 
-    margin-top: 40px;
-    font-size: 22px;
-
-    display: inline;
-}
-
-a{
+#links a{
      text-decoration: none;
+    
+     width: 85px;
+     height: 46px;
+     border: #DF5622 1px solid;
+     border-radius: 20px;
+    font-size: 20px;
+     background: none;
+ 
+     margin: 40px 100px 0;
+     
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+ 
 }
 
-.link{
-    margin-right: 150px;
+#links a:hover{
+
+    background: url('../images/image_processing20201012-18749-1sbq5o.gif');
+    background-position: center;
+    
 }
