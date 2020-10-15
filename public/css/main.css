@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #DF5622;
+    font-weight: 400;
+}
+
+root{
+    font-size: 62.4%;
+}
+
+#page{
+    background: rgb(72,71,71);
+    background: linear-gradient(135deg, rgba(72,71,71,1) 0%, rgba(51,49,49,1) 20%, rgba(42,41,41,1) 52%, rgba(25,25,25,1) 100%) no-repeat;
+    min-height: 100vh;
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+}
+
+#card{
+   
+    margin: 53px auto;
+    width: 812px;
+    height: 960px;
+    border: 3px solid #DF5622;
+    border-radius: 2rem;
+    position: relative;
+    padding: 112px 0px;
+    box-sizing: border-box;
+    background: #000000; 
+
+    
+}
+
+.corpo{
+   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+img{
+    width: 231px;
+    height: 236px;
+    border: 2px solid #DF5622;
+    border-radius: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+   font-size: 40px; 
+   text-transform: uppercase;
+   
+}
+
+h4{
+   
+    font-size: 20px;   
+    margin-bottom: -15px;
+}
+
+hr{
+
+    width: 520px;
+    border-color: #707070;
+    margin: auto;
+}
+
+p{
+    text-align: justify;
+    margin: 0px 110px;
+    font-weight: 400;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    margin-top: 112px;  
+    
+}
+
+.link, .git{
+    width: 85px;
+    height: 46px;
+    border: #DF5622 1px solid;
+    border-radius: 20px;
+
+    background: none;
+
+    margin-top: 40px;
+    font-size: 22px;
+
+    display: inline;
+}
+
+a{
+     text-decoration: none;
+}
+
+.link{
+    margin-right: 150px;
+}
