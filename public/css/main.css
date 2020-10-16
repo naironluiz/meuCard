@@ -1,35 +1,60 @@
 * {
+    
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #DF5622;
-    font-weight: 400;
+    box-sizing: border-box;
 }
 
-root {
-    font-size: 62.4%;
+:root {
+    font-size: 10px;
 }
 
-#page {
+@media(max-width: 700px){
+:root{
+    font-size: 7px;
+}
+img{
+    display: none;
+}
+#card footer {
+    display: inline-flex;
+    
+    margin-bottom: clamp(10rem, 10rem 10rem);
+}
+
+#links{
+    margin-top: 15rem;
+}
+}
+
+body {
+
     background: rgb(72, 71, 71);
     background: linear-gradient(135deg, rgba(72, 71, 71, 1) 0%, rgba(51, 49, 49, 1) 20%, rgba(42, 41, 41, 1) 52%, rgba(25, 25, 25, 1) 100%) no-repeat;
     min-height: 100vh;
+    max-height: 100vh;
 
     text-align: center;
 
     display: flex;
     align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #DF5622;
+
+    
 }
 
 #card {
 
-    margin: 53px auto;
-    width: 812px;
-    height: 960px;
+    
+    
+    margin: 5.4rem auto;
+    width: 81.2rem;
+    height: 96rem;
     border: 3px solid #DF5622;
     border-radius: 2rem;
     position: relative;
-    padding: 112px 0px;
+    padding: 11.2rem 0rem;
     box-sizing: border-box;
     background: #000000;
 
@@ -45,14 +70,22 @@ root {
     align-items: center;
 }
 
+#texto{
+    font-size: 1.6rem;
+    text-align: justify;
+    margin: 0px 110px;
+    font-weight: 400;
+    text-indent: 1rem;
+}
+
 
 img {
-    width: 231px;
-    height: 236px;
+    width: 23.1rem;
+    height: 23.6rem;
     border: 2px solid #DF5622;
-    border-radius: 200px;
+    border-radius: 20rem;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 header {
@@ -60,34 +93,34 @@ header {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 4rem;
     text-transform: uppercase;
+    font-weight: 400;
 
 }
 
 h4 {
 
-    font-size: 20px;
-    margin-bottom: -15px;
+    font-size: 2rem;
+    margin-bottom: -.8rem;
+    font-weight: 400;
 }
 
 hr {
 
-    width: 520px;
+    width: 52rem;
     border-color: #707070;
     margin: auto;
+    margin-bottom: .9rem;
 }
 
-p {
-    text-align: justify;
-    margin: 0px 110px;
-    font-weight: 400;
-}
 
 footer {
-    text-align: center;
+    
+    
     font-style: italic;
-    margin-top: 112px;
+    margin-top: 11.2rem;
+    font-size: 1.5rem;
 
 }
 
@@ -97,18 +130,19 @@ footer {
 #links a {
     text-decoration: none;
 
-    width: 85px;
-    height: 46px;
+    width: 8.5rem;
+    height: 4.6rem;
     border: #DF5622 1px solid;
-    border-radius: 20px;
-    font-size: 20px;
+    border-radius: 2rem;
+    font-size: 2rem;
     background: none;
 
-    margin: 40px 100px 0;
+    margin: 4.0rem 10rem 0;
 
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    color: #DF5622;
 
 }
 
