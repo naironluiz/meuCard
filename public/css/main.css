@@ -12,6 +12,7 @@
 @media(max-width: 700px){
 :root{
     font-size: 7px;
+    max-height: 100%;
 }
 img{
     display: none;
@@ -30,6 +31,7 @@ img{
 @media (max-width: 400px){
 :root{
     font-size: 7px;
+    max-height: 100%;
 }
 
 h4{
