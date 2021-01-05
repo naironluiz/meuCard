@@ -108,46 +108,58 @@ body {
 }
 
 
+  
 #texto{
     font-size: 1.6rem;
-    text-align: left;
+    text-align: justify;
     margin: 0px 11rem;
-    font-weight: 400;
+    font-weight: 500;
     text-indent: 1rem;
+    padding: 0 7rem 0 7rem;
 }
+
+
 
 
 img {
     width: 23.1rem;
     height: 23.6rem;
-    border: 2px solid #DF5622;
+    border: 3px solid #DF5622;
     border-radius: 20rem;
     margin: auto;
     margin-bottom: 1rem;
+    margin-top: -20px;
 }
 
-
+.titulo{
+    
+}
 
 h1 {
     font-size: 4rem;
     text-transform: uppercase;
     font-weight: 400;
+    letter-spacing: .2rem;
 
 }
 
-h4 {
+.sub {
 
     font-size: 2rem;
     margin-bottom: -.8rem;
-    font-weight: 400;
+    font-weight: 500;
+    font-style: italic;
 }
 
-hr {
-
+.sub:after{
+    content: "";
+    display: block;
     width: 52rem;
-    border-color: #707070;
+    background:#707070;
+    height: 1px;
     margin: auto;
-    margin-bottom: .9rem;
+    margin-top: 5px;
+    
 }
 
 
@@ -155,8 +167,9 @@ footer {
     
     
     font-style: italic;
-    margin-top: 11.2rem;
+    margin-top: 6rem;
     font-size: 1.5rem;
+    font-weight: 500;
 
 }
 
@@ -168,7 +181,7 @@ footer {
 
     width: 8.5rem;
     height: 4.6rem;
-    border: #DF5622 1px solid;
+    border: #DF5622 3px solid;
     border-radius: 2rem;
     font-size: 2rem;
     background: none;
