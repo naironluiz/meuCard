@@ -70,7 +70,7 @@ span{
 
 }
 
-
+/* WEB NORMAL */
 
 
 body {
@@ -110,7 +110,7 @@ body {
 
 #texto{
     font-size: 1.6rem;
-    text-align: justify;
+    text-align: left;
     margin: 0px 11rem;
     font-weight: 400;
     text-indent: 1rem;
